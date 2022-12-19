@@ -1,11 +1,12 @@
 import RegisterFormik from './components/form/RegisterFormik';
-// import RegisterHook from './components/form/RegisterHook';
+import RegisterHook from './components/form/RegisterHook';
 
 function App() {
   return (
     <div className="App">
-      <RegisterFormik></RegisterFormik>
-      {/* <RegisterHook></RegisterHook> */}
+      {/* <RegisterFormik></RegisterFormik> */}
+      <br />
+      <RegisterHook></RegisterHook>
     </div>
   );
 }
